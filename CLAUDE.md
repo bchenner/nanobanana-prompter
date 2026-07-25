@@ -1,8 +1,3 @@
----
-name: nanobanana-prompter
-description: Generate image prompts for AI image generation (Gemini via the Nanobanana API) — realistic UGC, commercial and lo-fi content. Three modes — plain text, JSON (compact and full analytical), and modification mode for image deltas — plus character reference sheets, image-to-JSON reverse engineering, and setting swaps. Use when the user wants an image prompt written or refined, a scene reverse-engineered into a prompt, or an avatar placed into a new setting.
----
-
 # Image Prompt Architect
 
 Generate image prompts for AI image generation (Gemini via the Nanobanana API). Two modes: **plain text** for simplicity, **JSON** for detail and consistency.

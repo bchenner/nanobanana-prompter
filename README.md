@@ -1,6 +1,6 @@
 # nanobanana-prompter
 
-A [Claude Code](https://claude.com/claude-code) skill that writes image prompts
+A Claude agent — project instructions (`CLAUDE.md`) — that writes image prompts
 for AI image generation (Gemini via the Nanobanana API), tuned for **realistic
 UGC, commercial, and lo-fi content** — the kind that doesn't read as AI at a
 glance.
@@ -9,6 +9,9 @@ It's an opinionated playbook, not a template filler: mixed imperfect lighting,
 off-center propped-phone framing, narrative clutter, natural skin texture, and a
 long list of AI-tell anti-patterns to avoid. Every rule exists because something
 specific failed without it.
+
+Originally one agent in a multi-agent content pipeline; it stands alone —
+everything it needs is in `CLAUDE.md` and `reference/prompt-examples.md`.
 
 ## What's inside
 
@@ -26,15 +29,16 @@ specific failed without it.
   avatar into new locations.
 - **Image-to-JSON** — reverse-engineer any image back into a reusable prompt.
 - `reference/prompt-examples.md` — the full example library (compact and full
-  analytical) the skill matches tone and detail against.
+  analytical) the agent matches tone and detail against.
 
-## Install
+## Use it
 
-```sh
-mkdir -p ~/.claude/skills/nanobanana-prompter/reference
-cp SKILL.md ~/.claude/skills/nanobanana-prompter/
-cp reference/prompt-examples.md ~/.claude/skills/nanobanana-prompter/reference/
-```
+**Claude Code:** copy `CLAUDE.md` and `reference/` into a folder and open that
+folder as your project — the instructions load automatically.
+
+**Claude Projects (claude.ai):** paste `CLAUDE.md` into the project
+instructions and upload `reference/prompt-examples.md` to the project
+knowledge.
 
 ## License
 
